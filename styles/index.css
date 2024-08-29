@@ -2,5 +2,219 @@
     width: 100px;
     height: 100px;
     margin: 10px;
-    display: inline-block;
+    margin: 0px 0px 0px 0px;
+
+    font-family: 'Figtree' , sans-serif;
+    /* background-color: palegoldenrod; */
+
 }
+
+.navbar{
+    height : 10dvh;
+    width : 98dvw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pilot{
+    height : 80dvh;
+    width : 100dvw;
+    background-image: url('../assets/pilot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logospace{
+    color: white;
+    height : 10dvh;
+    width : 20dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logospace h1 {
+    color: palegoldenrod;
+}
+
+.links{
+    color:white;
+    width : 60dvw;
+    height : 10dvh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link{
+    color : palegoldenrod;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.pilotinfo{
+    height : 40dvh;
+    width : 30dvw;
+    position : relative;
+    top : 10dvh;
+    left : 2dvw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pilotinfotext{
+    height : 20dvh;
+    width : 30dvw;
+    /* background-color: blue; */
+
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.pilotinfobuttons{
+    height : 10dvh;
+    width : 30dvw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+.orderBtn{
+    height : 9dvh;
+    width : 18dvw;
+    border-radius: 9px;
+    background-color: #ffcc00;
+    border-width: 1px;
+    font-family: 'Figtree' , sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.orderBtn:hover{
+    background-color: #ff9900;
+    cursor: pointer;
+}
+
+.orderBtn:active{
+    background-color: #ff6600;
+}
+
+
+
+.catchy{
+    color : #999999;
+    /* font-size: larger; */
+}
+
+.QuickMenu{
+    position: relative;
+    top : 20px;
+    height: 50dvh;
+    width : 98dvw;
+}
+
+.QMenuHeadings{
+    height : 20dvh;
+    width : 98dvw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.separator-container{
+    height : 1dvh;
+    width : 98dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator{
+    border: 1px solid palegoldenrod;
+    width : 60dvw;
+
+}
+
+
+.samplemenuitems{
+    position : relative;
+    top : 20px;
+    height : 50dvh;
+    width : 100dvw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menuitem{
+    height : 50dvh;
+    width : 20dvw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid palegoldenrod; */
+}
+
+.menuBtn{
+    height : 9dvh;
+    width : 15dvw;
+    border-radius: 9px;
+    background-color: #ffcc00;
+    border-width: 1px;
+    font-family: 'Figtree' , sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menuBtn:hover{
+    background-color: #ff9900;
+    cursor: pointer;
+}
+
+.menuBtn:active{
+    background-color: #ff6600;
+}
+
+.iteminfo{
+    height:30dvh;
+    width:20dvw;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
